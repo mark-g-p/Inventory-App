@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 insertBook();
                 insertSupplier();
                 displayData(queryData());
+                recreate();
             }
         });
         dbHelper = new BooksDbHelper(this);
