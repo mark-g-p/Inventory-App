@@ -53,8 +53,7 @@ public class BooksDbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
-//        sqLiteDatabase.execSQL(SQL_CR);
-//        onCreate(sqLiteDatabase);
+  // The database is still at version 1, so there's nothing to do be done here.
     }
 
 }
